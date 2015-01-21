@@ -24,9 +24,10 @@ import android.widget.TextView;
 import com.zhan_dui.data.Memo;
 import com.zhan_dui.data.MemoProvider;
 import com.zhan_dui.evermemo.MemoActivity;
-import com.zhan_dui.evermemo.R;
 import com.zhan_dui.sync.Evernote;
 import com.zhan_dui.utils.DateHelper;
+
+import me.pcqpcq.android.jokermemo.R;
 
 public class MemosAdapter extends CursorAdapter implements OnClickListener,
 		OnLongClickListener {

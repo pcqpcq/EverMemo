@@ -1,6 +1,8 @@
 package com.zhan_dui.data;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -172,7 +174,13 @@ public class Memo implements Serializable {
 	}
 
 	public String getTitle() {
-		return "EverMemo";
+        try {
+            long createTime = getCreatedTime();
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy年M月d日 aah:mm", Locale.CHINESE);
+            return sdf.format(createTime == 0 ? System.currentTimeMillis() : createTime);
+        } catch (IllegalArgumentException e) {
+            return "JokerMemo";
+        }
 	}
 
 	public Note toNote(String notebookGuid) {

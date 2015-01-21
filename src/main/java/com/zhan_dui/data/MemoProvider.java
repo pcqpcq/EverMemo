@@ -17,7 +17,7 @@ public class MemoProvider extends ContentProvider {
 	public static final int MEMO_ID = 2;
 
 	private MemoDB memoDB;
-	private static final String AUTHORITY = "com.zhan_dui.data.MemoContentProvider";
+	private static final String AUTHORITY = "me.pcqpcq.android.data.MemoContentProvider";
 	private static final String MEMO_BASE_PATH = MemoDB.MEMO_TABLE_NAME;
 	public static final Uri MEMO_URI = Uri.parse("content://" + AUTHORITY + "/"
 			+ MEMO_BASE_PATH);

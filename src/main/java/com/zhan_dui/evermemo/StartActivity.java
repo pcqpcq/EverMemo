@@ -49,6 +49,8 @@ import com.zhan_dui.sync.Evernote;
 import com.zhan_dui.utils.Logger;
 import com.zhan_dui.utils.MarginAnimation;
 
+import me.pcqpcq.android.jokermemo.R;
+
 public class StartActivity extends ActionBarActivity implements
 		LoaderCallbacks<Cursor>, OnClickListener, ItemLongPressedLisener,
 		onItemSelectLisener {

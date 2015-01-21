@@ -31,6 +31,8 @@ import com.zhan_dui.data.MemoDB;
 import com.zhan_dui.data.MemoProvider;
 import com.zhan_dui.sync.Evernote;
 
+import me.pcqpcq.android.jokermemo.R;
+
 public class MemoActivity extends ActionBarActivity implements OnClickListener,
 		OnKeyListener {
 

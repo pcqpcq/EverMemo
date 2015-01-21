@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.zhan_dui.evermemo.R;
+import me.pcqpcq.android.jokermemo.R;
 
 public class MinMaxTextView extends TextView {
 

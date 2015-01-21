@@ -27,6 +27,8 @@ import com.umeng.analytics.MobclickAgent;
 import com.zhan_dui.sync.Evernote;
 import com.zhan_dui.sync.Evernote.EvernoteLoginCallback;
 
+import me.pcqpcq.android.jokermemo.R;
+
 public class SettingActivity extends ActionBarActivity implements
 		OnClickListener, EvernoteLoginCallback, OnCheckedChangeListener {
 	private ViewGroup mBindEvernote;
